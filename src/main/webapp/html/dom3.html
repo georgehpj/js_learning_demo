@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="tms_row">
+    <input class="form-control tms_input_style1" type="hidden" id="id" name="id">
+    <div class="tms_col_4">
+        <label class="tms_lable_style2">系统运单号</label>
+        <input class="form-control tms_input_style2" type="text" id="no" name="no">
+    </div>
+    <div class="tms_col_4" id="needSkip">
+        <label class="tms_lable_style2">面单号</label>
+        <input class="form-control tms_input_style2" type="text" id="ticketNo" name="ticketNo">
+    </div>
+    <div class="tms_col_4" id="needReject">
+        <label class="tms_lable_style2">订单来源</label>
+        <select class="form-control tms_input_style2" id="source" name="source">
+            <option value="2" label="小农"/>
+        </select>
+    </div>
+    <div class="tms_col_4" id="needMove">
+        <label class="tms_lable_style2">客户订单号</label>
+        <input class="form-control tms_input_style2" type="text" id="orderNo" name="orderNo">
+    </div>
+</div>
+<div id="result"></div>
+<!--<script src="../js/dom3_iterator.js"></script>-->
+<script src="../js/dom3_range.js"></script>
+</body>
+</html>
